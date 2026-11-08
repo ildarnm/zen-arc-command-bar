@@ -1,0 +1,33 @@
+[
+  {
+    "type": "text",
+    "label": "Cmd+T opens the Arc-style palette. The current tab is never shown; the previously active tab is selected first."
+  },
+  {
+    "type": "checkbox",
+    "property": "zen-arc-command-bar.all-workspaces",
+    "label": "Search open tabs in all Spaces",
+    "defaultValue": true
+  },
+  {
+    "type": "dropdown",
+    "property": "zen-arc-command-bar.max-results",
+    "label": "Maximum visible results",
+    "value": "number",
+    "defaultValue": 10,
+    "placeholder": false,
+    "options": [
+      { "label": "6", "value": 6 },
+      { "label": "8", "value": 8 },
+      { "label": "10", "value": 10 },
+      { "label": "12", "value": 12 },
+      { "label": "16", "value": 16 }
+    ]
+  },
+  {
+    "type": "checkbox",
+    "property": "zen-arc-command-bar.debug",
+    "label": "Write diagnostic messages to Browser Console",
+    "defaultValue": false
+  }
+]

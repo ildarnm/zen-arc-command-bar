@@ -1,0 +1,36 @@
+{
+  "id": "zen-arc-command-bar",
+  "name": "Arc Command Bar",
+  "description": "Cmd+T palette with MRU tabs, bookmarks, and a predictable search action.",
+  "author": "Piano + Codex",
+  "version": "0.1.0",
+  "style": {
+    "chrome": "arc-command-bar.css"
+  },
+  "preferences": "preferences.json",
+  "supportsUnload": true,
+  "scripts": {
+    "arc-command-bar-core.uc.js": {
+      "include": [
+        "chrome://browser/content/browser.xhtml"
+      ],
+      "loadOrder": 1
+    },
+    "arc-command-bar.uc.js": {
+      "include": [
+        "chrome://browser/content/browser.xhtml"
+      ],
+      "loadOrder": 2
+    }
+  },
+  "tags": [
+    "tabs",
+    "bookmarks",
+    "command-bar",
+    "productivity",
+    "JavaScript"
+  ],
+  "fork": [
+    "zen"
+  ]
+}
